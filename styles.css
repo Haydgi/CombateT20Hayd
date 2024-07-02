@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.initiative-section, .npc-section {
+    margin-bottom: 20px;
+}
+
+.initiative-form, .npc-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.initiative-form input, .npc-form input {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.initiative-form button, .npc-form button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.initiative-form button:hover, .npc-form button:hover {
+    background-color: #0056b3;
+}
+
+.initiative-list, .npc-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.initiative-item, .npc-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.initiative-item h2, .npc-item h2 {
+    margin: 0;
+}
+
+.npc-attributes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.npc-attributes input {
+    width: 45%;
+}
+
+.initiative-item button, .npc-item button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.initiative-item button:hover, .npc-item button:hover {
+    background-color: #c82333;
+}

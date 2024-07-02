@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de NPCs e Iniciativas para RPG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciador de NPCs e Iniciativas para RPG</h1>
+        
+        <div class="initiative-section">
+            <h2>Controle de Iniciativas</h2>
+            <div class="initiative-form">
+                <input type="text" id="initiativeName" placeholder="Nome">
+                <input type="number" id="initiativeValue" placeholder="Iniciativa">
+                <button onclick="addInitiative()">Adicionar Iniciativa</button>
+            </div>
+            <div id="initiativeList" class="initiative-list"></div>
+        </div>
+        
+        <div class="npc-section">
+            <h2>Gerenciador de NPCs</h2>
+            <div class="npc-form">
+                <input type="text" id="npcName" placeholder="Nome do NPC">
+                <input type="number" id="npcLife" placeholder="Vida Máxima">
+                <input type="number" id="npcMana" placeholder="Mana Máxima">
+                <button onclick="addNPC()">Adicionar NPC</button>
+            </div>
+            <div id="npcList" class="npc-list"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
